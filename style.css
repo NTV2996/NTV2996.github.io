@@ -1,0 +1,35 @@
+/* định nghĩa kiểu chữ cho header */
+header {
+	font-family: Arial, sans-serif;
+}
+
+/* định nghĩa kiểu chữ cho tiêu đề */
+h1, h2, h3 {
+	font-family: Calibri, serif;
+}
+
+/* định nghĩa kiểu chữ cho nội dung */
+p {
+	font-family: Arial, sans-serif;
+}
+
+/* định nghĩa kiểu chữ cho danh sách */
+ul {
+	font-family: Arial, sans-serif;
+}
+
+/* định nghĩa kiểu cho dropdown */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
