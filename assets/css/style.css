@@ -336,6 +336,14 @@ main {
   border-radius: 20px;
 }
 
+.avatar-box img {
+  width: 100%; /* Ảnh sẽ tự động co dãn để phù hợp với khung chứa */
+  height: 100%; /* Ảnh sẽ tự động co dãn để phù hợp với khung chứa */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  border-radius: 20px; /* Đảm bảo ảnh bên trong cũng là hình tròn */
+}
+
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
