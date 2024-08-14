@@ -1854,8 +1854,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
-    white-space: nowrap;
-    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: auto;
     text-overflow: ellipsis;
   }
 
